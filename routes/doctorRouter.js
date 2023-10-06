@@ -4,7 +4,7 @@ const doctorController = require('../controllers/doctorController')
 
 
 doctorRouter.get('/doctors',doctorController.getAllDoctors)
-doctorRouter.post('/doctors',doctorController.addDoctor)
+doctorRouter.post('/doctors',doctorController.addDoctors)
 
 doctorRouter.get('/doctors/:id',doctorController.getDoctor)
 doctorRouter.put('/doctors/:id',doctorController.updateDoctor)
