@@ -11,3 +11,5 @@ doctorRouter.put('/doctors/:id',doctorController.updateDoctor)
 doctorRouter.delete('/doctors/:id',doctorController.deleteDoctor)
 
 module.exports = doctorRouter
+
+//micro servicios dedicados
